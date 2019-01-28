@@ -8,12 +8,13 @@ import Weather from './components/weather';
 const API_KEY = 'f099e6231af7dff61008f63d3315ae07'
 
 class App extends React.Component {
-   getWeather (e) {
+   getWeather = async(e) => {
     e.preventDefault();
                                 
-    const api_call =  fetch (`api.openweatherapp.org/data/2.5/forecast?q=London,uk&appid=${API_KEY}&units=metric`)
-    const data =  api_call.json();
-    console.log(data);
+    const api_call = await fetch (`http://api.openweathermap.org/data/2.5/weather?q=london&appid=${API_KEY}&units=metric`)
+   
+    const data =  await api_call.json();
+   console.log(data)
   }
 
   render(){
