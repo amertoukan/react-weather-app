@@ -55,7 +55,7 @@ class App extends React.Component {
     country : undefined, 
     humidity: undefined,
     description: undefined,
-    error: "Please enter a valid city or country."
+    error: "Please enter both values."
     })
   }
 }
