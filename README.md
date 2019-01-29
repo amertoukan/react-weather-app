@@ -24,15 +24,15 @@ Data regarding the values entered by the user is pulled from the AJAX request an
 
 <em>Index Page</em>
 
-![Index](app/src/img/index.png)
+![Index](src/img/index.png)
 
 <em>Search Page</em>
 
-![Search](app/src/img/search.png)
+![Search](src/img/search.png)
 
 <em> error page </em>
 
-![error](app/src/img/error.png)
+![error](src/img/error.png)
 
 <h2>To run this app </h2>
 <em>To run development mode do the following commands into terminal: </em>
